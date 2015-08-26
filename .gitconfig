@@ -1,0 +1,11 @@
+[alias]
+	lg  = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        st  = status
+        co  = checkout
+        br  = branch
+        dc  = diff --cached
+        gsr = svn rebase
+        gap = add . -p
+        gsd = svn dcommit
+        gphm = push heroku master
+        gbm = push origin master
